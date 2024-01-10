@@ -1,5 +1,6 @@
 body {
   font-family: "Barlow", sans-serif;
+  background-color: #3a1f1b;
 }
 
 .container {
@@ -60,6 +61,48 @@ header a {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 50px;
+}
+
+.grid-main {
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-section {
+  background: white;
+  padding: 100px 50px;
+}
+
+.temple-pic {
+  max-width: 80%;
+}
+
+main h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: gray;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
 }
 
 section {
@@ -125,7 +168,7 @@ footer a {
   margin-top: 40px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   header {
     padding: 60px 0;
   }
@@ -140,5 +183,37 @@ footer a {
 
   header h3 {
     font-size: 13px;
+  }
+
+  .grid {
+    grid-gap: 25px;
+  }
+  .grid-main {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .temple-pic {
+    margin-left: 150px;
+    max-width: 50%;
+    border-radius: 5px;
+  }
+
+  main h4 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  main h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  main p {
+    text-align: center;
+    font-size: 14px;
   }
 }
