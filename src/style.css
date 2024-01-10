@@ -110,6 +110,60 @@ section {
   padding: 50px;
 }
 
+.cards-section {
+  background-color: #f8f8f8;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+.yuge-pic {
+  max-width: 100%;
+}
+
+.bunge-pic {
+  max-width: 100%;
+}
+.dong-pic {
+  max-width: 100%;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #801914;
+  text-decoration: none;
+}
+
 footer {
   color: white;
   background: black;
