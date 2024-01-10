@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .container {
@@ -59,10 +59,12 @@ header a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 50px;
 }
 
 section {
   margin: 0 auto;
+  padding: 50px;
 }
 
 footer {
@@ -101,6 +103,26 @@ footer a {
   color: white;
   text-decoration: none;
   opacity: 0.7;
+}
+
+.seoul-list {
+  margin-left: -40px;
+}
+
+.about-me-footer {
+  padding: 0 10px;
+}
+
+.about-website {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.project-info-p {
+  text-align: center;
+  font-size: 10px;
+  font-family: monospace;
+  margin-top: 40px;
 }
 
 @media (max-width: 960px) {
