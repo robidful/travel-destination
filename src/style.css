@@ -118,8 +118,9 @@ section {
   text-align: center;
 }
 
-.grid-3-columns {
+.gallery.grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .card {
@@ -174,6 +175,7 @@ section {
 
 .gallery {
   background-color: white;
+  text-align: center;
 }
 
 .h2-gallery {
@@ -191,10 +193,6 @@ section {
 .h3-gallery {
   margin-bottom: 40px;
   text-align: center;
-}
-
-blockquote {
-  margin: 0 auto;
 }
 
 footer {
