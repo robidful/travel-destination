@@ -246,6 +246,10 @@ footer a {
     grid-template-columns: 1fr;
   }
 
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+
   section {
     padding: 30px;
   }
