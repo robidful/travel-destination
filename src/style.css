@@ -122,6 +122,10 @@ section {
   grid-gap: 30px;
 }
 
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
 .card {
   background-color: white;
   margin: 30px 0;
@@ -149,6 +153,7 @@ section {
 
 .embed {
   width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .bunge-pic {
