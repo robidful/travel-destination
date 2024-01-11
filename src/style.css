@@ -297,9 +297,10 @@ footer a {
   }
 
   .temple-pic {
-    margin-left: 150px;
-    max-width: 50%;
     border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    max-width: 50%;
   }
 
   main h4 {
