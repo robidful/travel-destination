@@ -387,4 +387,18 @@ footer a {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+
+  .footer-title {
+    margin-left: 20px;
+  }
+
+  .seoul-list {
+    margin-left: -20px;
+  }
+  .footer-title2 {
+    margin-left: 15px;
+  }
+  .footer-par {
+    margin-left: 15px;
+  }
 }
